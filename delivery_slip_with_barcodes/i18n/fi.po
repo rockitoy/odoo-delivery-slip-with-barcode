@@ -6,14 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-29 11:49+0000\n"
-"PO-Revision-Date: 2018-08-29 11:49+0000\n"
+"POT-Creation-Date: 2018-08-30 04:49+0000\n"
+"PO-Revision-Date: 2018-08-30 04:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: delivery_slip_with_barcodes
+#: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
+msgid "<span class=\"pull-right\">Expiry Date</span>"
+msgstr "<span class=\"pull-right\">Erääntymispäivä</span>"
 
 #. module: delivery_slip_with_barcodes
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
@@ -32,8 +37,8 @@ msgstr "<strong>Pvm</strong>"
 
 #. module: delivery_slip_with_barcodes
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
-msgid "<strong>Delivered Quantity</strong>"
-msgstr "<strong>Toimitettu määrä</strong>"
+msgid "<strong>Delivered</strong>"
+msgstr "<strong>Toimitettu</strong>"
 
 #. module: delivery_slip_with_barcodes
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
@@ -44,6 +49,11 @@ msgstr "<strong>Tilaus</strong>"
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
 msgid "<strong>Ordered Quantity</strong>"
 msgstr "<strong>Tilattu määrä</strong>"
+
+#. module: delivery_slip_with_barcodes
+#: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
+msgid "<strong>Ordered</strong>"
+msgstr "<strong>Tilattu</strong>"
 
 #. module: delivery_slip_with_barcodes
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document

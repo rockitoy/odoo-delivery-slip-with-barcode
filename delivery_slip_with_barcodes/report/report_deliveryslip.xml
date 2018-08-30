@@ -83,11 +83,14 @@
                                 <th class="text-center" width="20%"><strong>Barcode</strong></th>
                                 <th name="lot_serial" t-if="has_serial_number">
                                     Lot/Serial Number
+                                    <t t-if="any([move_lines.lot_id.use_date for move_lines in o.move_line_ids])">
+                                        <span class="pull-right">Expiry Date</span>
+                                    </t>
                                 </th>
                                 <th class="text-center"><strong>Unit Price</strong></th>
-                                <th class="text-center"><strong>Ordered Quantity</strong></th>
+                                <th class="text-center"><strong>Ordered</strong></th>
                                 <th t-if="any([move_line.state == 'done' for move_line in o.move_line_ids])" class="text-right">
-                                        <strong>Delivered Quantity</strong>
+                                        <strong>Delivered</strong>
                                 </th>
                             </tr>
                         </thead>
@@ -124,6 +127,9 @@
                                                      <t t-if="move_line.product_qty"> 
                                                         <span t-field="move_line.product_qty"/>
                                                     </t>
+                                                </td>
+                                                <td>
+                                                    <span class="pull-right" t-field="move_line.lot_id.use_date" t-field-options='{"widget": "date"}'/>
                                                 </td>
                                             </tr>
                                         </table>
