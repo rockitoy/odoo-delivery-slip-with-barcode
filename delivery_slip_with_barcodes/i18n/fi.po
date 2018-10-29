@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-30 04:49+0000\n"
-"PO-Revision-Date: 2018-08-30 04:49+0000\n"
+"POT-Creation-Date: 2018-10-29 07:50+0000\n"
+"PO-Revision-Date: 2018-10-29 07:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,6 +29,11 @@ msgstr "<span><strong>Asiakkaan osoite:</strong></span>"
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
 msgid "<strong>Barcode</strong>"
 msgstr "<strong>Viivakoodi</strong>"
+
+#. module: delivery_slip_with_barcodes
+#: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document
+msgid "<strong>Customer Reference:</strong>"
+msgstr "<strong>Asiakasviite:</strong>"
 
 #. module: delivery_slip_with_barcodes
 #: model:ir.ui.view,arch_db:delivery_slip_with_barcodes.report_delivery_barcode_document

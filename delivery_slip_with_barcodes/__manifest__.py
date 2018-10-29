@@ -11,7 +11,7 @@
     'website': 'http://www.technaureus.com/',
     'description': """
 This addon will help to show barcode in delivery slip...""",
-    'depends': ['stock'],
+    'depends': ['sale_stock'],
     'data': [
         'report/stock_report_views.xml',
         'report/report_deliveryslip.xml',
